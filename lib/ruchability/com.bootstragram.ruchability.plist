@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.bootstragram.ruchability</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/bash</string>
+      <string>-l</string>
+      <string>-c</string>
+      <string>ruchability</string>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/Users/mick/Library/Logs/ruchability.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/mick/Library/Logs/ruchability.error.log</string>
+    <key>StartInterval</key>
+    <integer>15</integer>
+</dict>
+</plist>
