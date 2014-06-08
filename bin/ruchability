@@ -1,8 +1,5 @@
 #!/usr/bin/env ruby
-
 require 'ruchability'
-require 'net/http'
-require 'benchmark'
 require 'optparse'
 
 options = {}
@@ -35,7 +32,7 @@ OptionParser.new do |opts|
   end
 end.parse!
 
-p options
-p ARGV
+#p options
+#p ARGV
 
 Ruchability::Reacher.new.reach
