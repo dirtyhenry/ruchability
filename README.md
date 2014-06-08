@@ -1,6 +1,6 @@
 # Ruchability
 
-TODO: Write a gem description
+A network reachability check gem.
 
 ## Installation
 
